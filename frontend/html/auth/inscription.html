@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SCHOLAR</title>
+        <link class="icon" rel="icon" type="image/png" href="../assets/images/logo.PNG">
+        <meta charset="Utf-8">
+        <meta name="scholar" content="application de paiement de la scolarite">
+        <link rel="stylesheet" type="text/css" href="../../css/style_inscription.css">
+    </head>
+    <body>
+        <div class="body">
+            <div id="box1">
+                <div class="logo">
+                    <img src="../../assets/images/logo2 (2).png">
+                </div>
+                <div class="text">
+                    <h1>
+                        Content de vous voir !
+                    </h1>
+                    <p> ‘‘Inscrivez vous et commencer 
+                        a profiter de <br/>l’ensemble des 
+                        fonctionnalités de nos servis ’’</p>
+                </div>
+            </div>
+            <div id="box2">
+                <div class="box2-header">
+                    <div class="header1"> <img src="../../assets/images/clip-327 (2).png"></div>
+                    <div class="header2"><h1>Inscription</h1></div>
+                    <div class="header3"><img src="../../assets/images/clip-327 (2).png"></div>
+                </div>
+                <div class="box2-body">
+                    <div class="form">
+                        <form  id="form" >
+                           
+                            <div class="input-group">
+                                <input  type="text" name="username" id="username" autocomplete="off" class="input" required>
+                                <label class="user-label">Nom d'utilisateur</label>
+                            </div>
+                            <div class="input-group">
+                                <input  type="number" name="num" id="num" autocomplete="off" class="input" required>
+                                <label class="user-label">N° Téléphone</label>
+                            </div>
+                            <div class="input-group">
+                            <select id="role" name="role" class="select" >
+                                 
+                                    <option value="user">Utilisateur</option>
+                                    <option value="admin">Administrateur</option>
+
+                                  </select>
+                            </div>
+                           
+                            <div class="input-group">
+                                <input  type="password" name="password" id="password" autocomplete="off" class="input" required minlength="6">
+                                <label class="user-label">Mot de passe</label>
+                            </div>
+                            <button id="btn" type="submit" onclick="window.location.href='../auth/accueil.html'"> S'inscrire</button>
+                           
+                        </form>
+                        <div class="nocount">
+                            <div class="new">
+                                <span>Vous avez deja un compte ?&nbsp;&nbsp;</span>
+                            </div>
+                            <div class="inscrire">
+                                <a href="../auth/connexion.html">Se connecter</a>
+                            </div>
+                        </div>
+                    </div> 
+                    
+                </div>
+            </div>
+        </div>
+        <script src="../../js/inscription.js"></script>
+    </body>
+</html>

@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'inter';
+    src: url("../assets/police/inter/Inter-Medium.ttf") format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'ubuntu';
+    src: url("../assets/police/ubuntu.ttf") format('truetype');
+  }
+  @font-face {
+    font-family: 'inknut';
+    src: url("../assets/police/inknut.ttf") format('truetype');
+  }
+  @font-face {
+    font-family: 'pluto';
+    src: url("../assets/police/pluto.ttf") format('truetype');
+  }
+
+
+  body{
+    background-color: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+  }
+  #box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-color:aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+    background-color: #08066A;
+  }
+  .box1{
+    /* position: fixed; */
+    width: 20%;
+    display: inline-block;
+    background-color: #08066A;
+    height: 100%;
+  }
+ 
+ 
+  .logo img{
+    width: 100%;
+    height: 100%;
+    image-resolution: 2;
+    object-position: center;
+  
+  }
+.allmenu{
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box2{
+    /* position: absolute; */
+    width: 80%;
+    display: inline-block;
+    background-color: #ffff;
+    height: 98.5%;
+    border-radius: 30px 0px 0px 30px;
+
+  }

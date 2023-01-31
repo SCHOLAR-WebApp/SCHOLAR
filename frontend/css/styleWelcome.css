@@ -1,0 +1,363 @@
+@font-face {
+  font-family: 'inter';
+  src: url("../assets/police/inter/Inter-Medium.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'ubuntu';
+  src: url("../assets/police/ubuntu.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'inknut';
+  src: url("../assets/police/inknut.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'pluto';
+  src: url("../assets/police/pluto.ttf") format('truetype');
+}
+
+link .icon{
+  border-radius: 100%;
+}
+title{
+  font-family: 'pluto' sans-serif;
+}
+body{
+    background-color: aliceblue;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    position: absolute;
+}
+
+#box1{
+    background-image:  linear-gradient(to right, #08066A 0%, #3d99be 31%, #08066A 100%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 400px;
+    border-radius: 0px 0px 1000px 0px;
+    /* animation: color-change 50s ease-in-out infinite;
+    transition: all 2s ease-in; */
+}
+
+#box1:hover{
+  background-image:  linear-gradient(to right, #08066A 0%, #3d99be 31%, #08066A 100%);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 400px;
+  border-radius: 0px 0px 1000px 0px;
+  animation: color-change 10s ease-in-out infinite;
+  transition:2s;
+  transition-delay: 2s ;
+}
+@keyframes color-change {
+    0% {
+      background-image: linear-gradient(to right, #08066A 0%, #3d99be 31%, #08066A 100%);
+    }
+    20% {
+      background-image: linear-gradient(-225deg, #FF3CAC 0%, #562B7C 52%, #08066A 100%);
+    }
+    40% {
+      background-image: linear-gradient(to right, #08066A 0%, #3d99be 31%, #08066A 100%);
+    }
+    60% {
+      background-image: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #08066A 100%);
+    }
+    80% {
+      background-image: linear-gradient(to top, #f43b47 0%, #08066A 100%);
+    }
+    100% {
+      background-image: linear-gradient(to top, #08066A 0%, #537895 100%);
+    }
+  }
+#box1 .box1-left{
+    width: 48%;
+}
+#box1 .box1-rigth{
+    /* background-color: red; */
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+}
+.box1-rigth .box1-rigth0{
+    width: 100%;
+    height: 90%;
+
+}
+.box1-left .logo1{
+margin-top: -110px;
+margin-left: -110px;
+
+}
+.box1-left .slogan{
+    padding-left: 15%;
+    color: #A6E77C;
+    font-size: 15px;
+    z-index: 2;
+    margin-top: -110px;
+
+}
+.box1-rigth0 h1{
+    color:#A6E77C;
+    font-size: 40px;
+    font-family: 'pluto', sans-serif;
+}
+.box1-rigth0 p{
+    color: #ffff;
+    padding-left: 1%;
+    font-size: 25px;
+    font-family: 'pluto', sans-serif;
+   
+}
+
+.box1-rigth0 .button {
+  
+  animation: color-change 5s ease-in-out infinite;
+  margin-left: 5%;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  padding: 0.7em 2em;
+  border: 3px solid #99CC00;
+  border-radius: 10px 0px 30px 0px;
+  position: relative;
+  box-shadow: 0 2px 10px #99CC00, 0 3px 6px #99CC00;
+  /* background-image:  linear-gradient(to right, #08066A 0%, #3d99be 50%, #08066A 100%); */
+  background: none;
+
+
+  z-index: 1;
+
+
+ }
+
+ @keyframes color-change {
+  0% {
+    border-color: #99CC00;
+  }
+  20% {
+    border-color: #3d99be;
+  }
+  40% {
+    border-color: #99CC00;
+  }
+  60% {
+    border-color: #fff;
+  }
+  80% {
+    border-color:  #A6E77C;
+  }
+  100% {
+    border-color:  #99CC00;
+  }
+}
+ 
+.button:before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: '';
+  background-color: #08066A;
+  border-radius: 10px 0px 30px 0px;
+  z-index: -1;
+ }
+ 
+ .button:hover, .button:focus {
+  color: white;
+ }
+ 
+ .button:hover:before, .button:focus:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+ }
+ 
+ .button:active {
+  transform: scale(0.9);
+ }
+ .button span{
+  margin-top: -10px;
+  text-decoration: none;
+  color: #A6E77C;
+  padding-top: -10px;
+  align-items: center;
+  font-family: 'pluto', sans-serif;
+  
+ }
+ .button img{
+  width: 30px;
+  height: 30px;
+ }
+ 
+.button  svg {
+  color:#A6E77C ;
+  transition: 0.2s;
+  position: relative;
+  width: 20px;
+  height: 10;
+  transition-delay: 0.2s;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#box2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#box2 div{
+  width: 30%;
+  height: initial;
+}
+
+#box2 div img{
+  width: 250px;
+  height: 150px;
+}
+.loader {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 6.250em;
+  height: 6.250em;
+  animation: rotate5123 2.4s linear infinite;
+}
+
+.white {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  animation: flash 2.4s linear infinite;
+  opacity: 0;
+}
+
+.dot {
+  position: absolute;
+  margin: auto;
+  width: 10.4em;
+  height: 10.4em;
+  border-radius: 100%;
+  transition: all 1s ease;
+}
+
+.dot:nth-child(2) {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background: #FF4444;
+  animation: dotsY 2.4s linear infinite;
+}
+
+.dot:nth-child(3) {
+  left: 0;
+  right: 0;
+  top: 0;
+  background: #FFBB33;
+  animation: dotsX 2.4s linear infinite;
+}
+
+.dot:nth-child(4) {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: #99CC00;
+  animation: dotsY 2.4s linear infinite;
+}
+
+.dot:nth-child(5) {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #33B5E5;
+  animation: dotsX 2.4s linear infinite;
+}
+
+@keyframes rotate5123 {
+  0% {
+    transform: rotate( 0 );
+  }
+
+  10% {
+    width: 6.250em;
+    height: 6.250em;
+  }
+
+  66% {
+    width: 2.4em;
+    height: 2.4em;
+  }
+
+  100% {
+    transform: rotate(360deg);
+    width: 6.250em;
+    height: 6.250em;
+  }
+}
+
+@keyframes dotsY {
+  66% {
+    opacity: .1;
+    width: 2.4em;
+  }
+
+  77% {
+    opacity: 1;
+    width: 0;
+  }
+}
+
+@keyframes dotsX {
+  66% {
+    opacity: .1;
+    height: 2.4em;
+  }
+
+  77% {
+    opacity: 1;
+    height: 0;
+  }
+}
+
+@keyframes flash {
+  33% {
+    opacity: 0;
+    border-radius: 0%;
+  }
+
+  55% {
+    opacity: .6;
+    border-radius: 100%;
+  }
+
+  66% {
+    opacity: 0;
+  }
+}
