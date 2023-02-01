@@ -60,25 +60,53 @@
     </div>
     <div class="box2">
             <div class="div1">
-                    <div class="div10"><img src="../../assets/icons/Web/icon (5).png"></div>
-                    <div class="div11"><p>Etablissement Scolaires</p></div>
+                    <button class="div10" onclick="window.location.href='./select_etablissement.html'"><img src="../../assets/icons/icon20 (25).png"></button>
+                    <div class="div11"><p>INFORMATIONS de l'Eleve</p></div>
                     <!-- <div class="div11"><img src="../../assets/icons/user.png"</div> -->
             </div>
-            <div class="div2">
+            <!-- <div class="div2">
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Veillez sélectionner votre établissement scolaire  afin de régler les frais de scolarités de l’élève ou pour consulter sa solvabilité.
                         Vous avez également la possibilité d’enregistrer un nouvel élève dans l’établissement scolaire choisie.</p>
-            </div>
-            <div class="div3">
+            </div> -->
+            <!-- <div class="div3">
                     <p>INFORMATIONS DE L'ELEVE</p>
+
+                </div> -->
+                <div class="Div3">
+                        <div class="Div30" onclick="window.location.href='./informationeleve.html'">
+                            <div class="Icon"> <img src="../../assets/icons/icon20.png"></div>
+                            <div class="Titre"><p>Etablissement: </p></div>
+                            <div class="contenu"><p id="ecole">En attente des la requete</p></div>
+                        </div>
+                        <div class="Div30" onclick="window.location.href='./informationeleve.html'">
+                            <div class="Icon"> <img src="../../assets/icons/icon20.png"></div>
+                            <div class="Titre"><p>Classe:</p></div>
+                            
+                                <!-- <select id="school" name="school" class="school" >
+                                    <option value="false">Selectionner un Etablissement</option>
+                                        <option value="Ecole1">Ecole1</option>
+                                        <option value="Ecole2">Ecole2</option>
+        
+                                </select> -->
+                                <input type="text" id="class" class="classe" placeholder="Entrer votre classe">
+                            
+                        </div>
+                        <div class="Div30" onclick="window.location.href='./informationeleve.html'">
+                            <div class="Icon"> <img src="../../assets/icons/icon20.png"></div>
+                            <div class="Titre"><p>Nom: </p></div>
+                            <!-- <div class="contenu"><p id="ecole"></p></div> -->
+                            <input type="text" id="classss" class="classess" placeholder="Entrer votre classe">
+                        </div>
                 </div>
+
             <div class="div4">
                 
-                        <select id="school" name="school" class="school" >
+                        <!-- <select id="school" name="school" class="school" >
                             <option value="false">Selectionner un Etablissement</option>
                                 <option value="Ecole1">Ecole1</option>
                                 <option value="Ecole2">Ecole2</option>
 
-                        </select>
+                        </select> -->
                         
             </div>
             <button class="div5" onclick="window.location.href='./informationeleve.html'">
