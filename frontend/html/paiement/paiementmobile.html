@@ -5,7 +5,7 @@
         <link class="icon" rel="icon" type="image/png" href="../assets/images/logo.PNG">
         <meta charset="Utf-8">
         <meta name="scholar" content="application de paiement de la scolarite">
-        <link rel="stylesheet" type="text/css" href="../../css/paiement.css">
+        <link rel="stylesheet" href="../../css/paiementmobile.css">
         
     </head>
     <body>
@@ -59,57 +59,59 @@
         </div>
     </div>
     <div class="box2">
-        <!--div class="div0">
-            <div class="search">
-                <img src="../../assets/icons/icon20 (7).png" alt="">
-                <input type="text" id="search">
-                <label for="">Recherche</label>
-            </div>
-
-            <div class="search2">
-                <span>User</span>
-                <img src="../../assets/icons/user.png" alt="">
-            </div>
-        </div-->
-
         <div class="div1">
             <div class="div10"><img src="../../assets/icons/icon20 (5).png"></div>
             <div class="div11"><p>Paiement</p></div>
        </div>
 
-        <div class="div2">
-                <p> <h2>PAYER EN TOUTE SECURITE</h2> <i>veuillez utiliser un moyen de paiement
-                accepté par votre établissement pour payer les frais de scolarité de l'élève.</i></p>
-        </div>
-   
-        <div class="div3">
-            <p>SELECTIONNER UN MOYEN DE PAIEMENT</p>
+       <div class="div2">
+            <button class="div20" onclick="window.location.href='./paiement.html'"><img src="../../assets/icons/icon20 (25).png"></button>
+            <div class="div21"><p>PAIEMENT MOBILE</p></div>
         </div>
 
+        <div class="div3">
+            <p>Vous voulez éffectuer le paiement mobile de la 
+                scolarité de l'élève:
+            </p>
+        </div>
+        <div class="div4"><p>Informations de paiement:</p></div>
         <div class="div5">
-            <div class="div51">
-                <div class="up">
-                    <img src="../../assets/images/phone.png">
-                </div>
-                <button class="down" onclick="window.location.href='#'">
-                    <p>Paiement Bancaire</p>
-                </button>
-            </div>
-            <div class="div52">
-                <div class="up">
-                    <img src="../../assets/images/paiementmobile2.png">
-                </div>
-                <button class="down"  onclick="window.location.href='paiementmobile.html'">
-                    <p>Paiement Mobile</p>
-                </button>
+            <div>
+                <table>
+                    <tr><td>Nom de l'élève:</td><td><input type="text" placeholder="entrez le nom de l'élève"></td></tr>
+                    <tr><td>Classe:</td><td><input type="text" placeholder="entrez la classe de l'élève"></td></tr>
+                    <tr><td>Motif:</td>
+                        <td>
+                            <select name="tranches" id="tranches" >
+                                <option value="tranche0">sélectionnez la tranche à payer</option>
+                                <option value="tranche1">tranche1</option>
+                                <option value="tranche2">tranche2</option>
+                                <option value="tranche3">tranche3</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr><td>Montant:</td>
+                        <td>
+                            <select name="montants" id="tranches">
+                                <option value="montant0">sélectionnez le montant à payer</option>
+                                <option value="montant1">tranche1:50000</option>
+                                <option value="montant2">tranche2:30000</option>
+                                <option value="montant3">tranche3:20000</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
             </div>
         </div>
-        <button class="div6" onclick="window.location.href='paiementmobile.html'">
-            <div class="Titre"><p>Suivant</p></div>
-            <div class="Icon"> <img src="../../assets/icons/icon20 (22).png"></div>
+
+        <button class="div5" onclick="window.location.href='./confirmpaiement.html'">
+            <div class="Titre"><p>Confirmer le paiement</p></div>
         </button>
     </div>
 </div>
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script> -->
     </body>
 </html>
+
+
+

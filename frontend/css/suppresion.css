@@ -29,19 +29,19 @@
     width: 100%;
     height: 100%;
     margin: 0px;
-    background-color:rgb(235, 238, 240);
+    background-color:aliceblue;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0%;
     padding: 0%;
-    background-color: #060655;
+    background-color: #08066A;
   }
   .box1{
     /* position: fixed; */
     width: 20%;
     display: inline-block;
-    background-color: #070557;
+    background-color: #08066A;
     height: 100%;
   }
  
@@ -107,7 +107,7 @@
   padding-left: 1%;
   width: 100%;
   height: 100%;
-  color: #17065a;
+  color: #08066A;
   background: none;
   font-size: 110%;
   font-family: 'pluto',sans-serif;
@@ -127,62 +127,31 @@
 }
 
 .titre button:hover{
-  color: #bdc2ba;
+  color: #A6E77C;
 
 }
+
+
+
+
+
+
+
+
+
 
 
 .box2{
     /* position: absolute; */
     width: 80%;
     display: inline-block;
-    background-color: rgb(250, 246, 246);
+    background-color: #ffff;
     height: 98.5%;
     border-radius: 30px 0px 0px 30px;
 
   }
-  .box2 .div4{
-    position: relative;
-    width: 80%;
-    height: 80%;
-    margin: auto;
-  }
-  .div4 .div41{
-    z-index: 1;
-    position: absolute;
-    width: 80%;
-    height: 100%;
-    border: solid 3px #999b98;
-    box-shadow: 0px 30px 30px #7f7f94;
-    background-color: #636277;
-    
-    /* animation: ; */
-    border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
-    animation: borderRotate var(--d) linear infinite forwards;
-    
-  }
-  /* Animatiom */
   
-  
-  
-  .div42{
-    z-index: 3;
-    position: absolute;
-    width: 70%;
-    height: 100%;
-    background-color: none;
-    display: block;
-    justify-content: center;
-    
-  }
-  .div42 p{
-    padding-left: 10%;
-    color: rgb(243, 242, 247);
-    top: 50%;
-    font-size: 100%;
-    font-family: 'pluto',sans-serif;
-  }
-  
+
   .box2 .div1{
     width: 100%;
     height: 10%;
@@ -190,19 +159,45 @@
     flex-direction: row;
     margin-left: 2%;
     margin-top: 1%;
+   
   }
+  .box2 .div2{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 2%;
+    margin-top: 1%;
+   
+  }
+
+ .box2 .div2 p{
+  color: #08066A;
+    font-size: 100%;
+    font-family: 'ubuntu',sans-serif; 
+    margin-left: 160px;
+    margin-top: 60%;
+    color: red;
+  }
+ 
   .div10{
-    width: 10;
-    background-color: #040464;
+    width: 7%;
+    background: none;
+    border: none;
   }
-  .div10 img{
+  .div2 .div10 img{
     
-     width: 100%;
-    height: 80%; 
+    width: 350%;
+    height: 450%;
     position: relative;
     padding-top: 10%;
-    background-image: #08066A;
+    border: 2px solid #f1f1f7;
+    border-radius: 100px;
+    background-color: #f1f1f7;
+    margin-left: 300px;
+   
   }
+ 
   .div11{
     display: flex;
     justify-content:flex-start;
@@ -210,7 +205,49 @@
     width: 80%;
   }
   .div11 p{
-    color: #040464;
+    color: #08066A;
     font-size: 150%;
     font-family: 'ubuntu',sans-serif; 
+    
   }
+ .div2 .div10 button {
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: black;
+    z-index: 1;
+    background: #08066A;
+    /* position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px  #08066A;
+    box-shadow: 0px 10px 20px rgba(8, 6, 106, 0.6);
+    transition: all 250ms;
+    overflow: hidden;
+    margin-top: 5%;
+    margin-left: 20%; */
+   }
+ 
+  
+    #butto{
+        background-color: #08066A;
+        color: whitesmoke;
+        padding: 15px 25px;
+        border: unset;
+        border-radius: 15px;
+        z-index: 1;
+        margin-left: 380px;
+        margin-top: 360px;
+    }
+  #butto:hover {
+    border: solid 3px #5350f5;
+    box-shadow: 0px 10px 20px rgba(8, 6, 106, 0.6);
+    color: #f1f8fa;
+    transition: all 250ms;
+   }
+   
+  
+ 
+
+ 
+ 
